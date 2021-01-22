@@ -49,7 +49,7 @@ spec:
   ports:
     - port: 8081
       protocol: TCP
-      nodePort: 3000
+      nodePort: 30001
       targetPort: 8081  
    
     
