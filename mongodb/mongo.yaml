@@ -1,6 +1,6 @@
 ---
 # create mongodb deployment and mongodb service
-apiVersion: App/v1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: mongodb-deployment
@@ -42,7 +42,7 @@ spec:
   selector:
     app: mongodb
   ports:
-    - protocol: tcp
+    - protocol: Tcp
       port: 27017
       targetPort: 27017
 
